@@ -10,6 +10,6 @@ def uras():
     return render_template("uras.html")
 @app.route("/mehmet")
 def mehmet():
-    return render_template("mehmet.html")
+    return render_template("Mehmet/mehmet.html")
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0",debug=True)
